@@ -1,0 +1,79 @@
+body {
+    background-color: #232323;
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+    line-height: 1.1;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* - SQUARE CONTAINER - */ 
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* - SQUARES - */ 
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    border-radius: 5%;
+}
+
+/* - STRIPE - */
+.stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+/* - RGB Numbers - */
+#colorDisplay {
+    font-size: 200%;
+}
+
+/* - SPAN El - Holds the JS text (Correct, Try again) - */
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+/* - EASY / HARD BUTTONS */
+.selected {
+    color: white;
+    background-color: steelblue;
+}
+
+/* - BUTTONS - */
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    letter-spacing: 1px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
